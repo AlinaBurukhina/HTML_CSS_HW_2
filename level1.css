@@ -1,0 +1,26 @@
+blockquote {
+    color: green;
+}
+
+.text-box h3:first-child {
+    color:pink;
+}
+
+#greycol {
+    color:grey;
+}
+#greycol + div + div > p {
+    color:red; 
+} 
+/* .text-box div p */
+
+div ~ p {             
+    color:green; 
+}
+/* .text-box p:nth-last-child(2)  */
+
+.yellow {
+    color:yellow;
+} 
+/* перекрывает предыдущий селектор стиля, 
+поэтому последняя p - желтая, а не зеленая */

@@ -1,0 +1,12 @@
+.house {
+    width: 100vw;
+    min-width: 100%;
+    height: 100vh;
+    min-height: 100%;
+    background-color: green;
+    background-image: url("donut.png"), url("hedgehog.png"), url("lamp.png"), url("grass.png"), url("house.jpg");
+    background-repeat: repeat-y, repeat-y, repeat-x, repeat-x, no-repeat;
+    background-size: 20px, 20px, 20px, 200px, 300px;
+    background-position: right, left, top, bottom, center;
+}
+
